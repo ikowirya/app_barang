@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".InsertBarangActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/form"
+                android:text="Form Edit Barang"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_below="@+id/form"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Kode Barang"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtKode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Nama Barang"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtNamaBarang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/merk"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtMerk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/qty"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtQty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/plant"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtPlant"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/lokasi"
+                        android:gravity="center_vertical"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtLokasi"
+                        android:minLines="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/keterangan"
+                        android:gravity="center_vertical"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/txtKeterangan"
+                        android:minLines="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btnEdit"
+                    android:padding="20dp"
+                    android:text="UPDATE"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

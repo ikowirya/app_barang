@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Barang</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="merk">Merk</string>
+    <string name="qty">Qty</string>
+    <string name="plant">Plant</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="keterangan">Keterangan</string>
+</resources>
